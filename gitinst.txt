@@ -1,0 +1,9 @@
+Recordar como crear el repositorio y montar branches remotos:
+> Crear carpeta en local
+> Crear un primer archivo X
+> $git init
+> Crear repositorio en GitHub
+> Copiar 'link SSH'
+> En terminal $git add remote origin 'link SSH'
+
+Listo... para revisar $git remote -v
