@@ -7,3 +7,6 @@ Recordar como crear el repositorio y montar branches remotos:
 > En terminal $git add remote origin 'link SSH'
 
 Listo... para revisar $git remote -v
+
+Para montar la branch, debo agregar a mi repositorio local, y luego hacer push
+a la rama master, y luego pull... Todo funciona?
