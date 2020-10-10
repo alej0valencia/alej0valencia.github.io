@@ -1,3 +1,14 @@
-header{
-    background: pink ;
+/*reglas
+selectores
+declaraciones
+propiedades
+valores*/
+
+header
+{
+    background: gray;
+    color: red;
 }
+
+/*Ejemplo de selector descendente*/
+/*body header div nav ol li a*/
