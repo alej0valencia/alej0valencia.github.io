@@ -11,7 +11,8 @@ valores*/
     margin: 0px;
     display: flex;
     justify-content: space-between;
-    height: 90px;
+    height: 70px;
+    align-items: center;
 }
 
 .menu{
@@ -90,6 +91,8 @@ h1 strong{
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio{
@@ -133,4 +136,21 @@ h1 strong{
     border: 1px solid red;
     flex-shrink: 0;
     margin: 5px;
+}
+
+.footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+.footer a{
+    color: white;
 }
