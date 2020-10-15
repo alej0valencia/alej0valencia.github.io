@@ -155,18 +155,51 @@ h2{
     font-family: 'Fjalla One', sans-serif;
 }
 
-.flexbox{
+.event-list{
     display: flex;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
 }
 
-.box{
-    width: 50px;
-    height: 50px;
-    border: 1px solid red;
+.event-list-title{
+    margin-left: 20px;
+}
+
+.event{
+    /* border: 1px solid red; */
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
     flex-shrink: 0;
-    margin: 5px;
+    background-color: #f4fbff;
+    /* background-color: red; */
+}
+
+.event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail{
+    margin: 20px 40px;
+    background-color: white;
+    margin-top: -40px;
+    position: relative;
+    padding: 20px;  
+    padding-top: 8px;
+    text-align: center;  
+}
+
+.event-detail p{
+    text-align: left;
+}
+
+.event-url{
+    border: 1px solid #026fff;
+    border-radius: 8px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #026fff ;
 }
 
 .footer{
