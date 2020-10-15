@@ -4,16 +4,49 @@ declaraciones
 propiedades
 valores*/
 
-header
+.header
 {
-    background: gray;
+    background-color: #1b2127;
     color: red;
     margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
 }
 
-ol{
-    margin: 0px;
+.menu{
+    height: inherit;
 }
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    height:  inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+figure{
+    margin: 0;
+}
+
+ol, ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 
 /*Ejemplo de selector descendente*/
 /*body header div nav ol li a*/
@@ -88,12 +121,16 @@ h1 strong{
     ;
 }
 
-.header{
-    background-color: #1b2127;
-    color: white;
+.flexbox{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
 }
 
-.header a{
-    color: white;
-    text-decoration: none;
+.box{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    flex-shrink: 0;
+    margin: 5px;
 }
