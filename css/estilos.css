@@ -19,6 +19,8 @@ valores*/
 .container{
     /* border: 1px solid red; */
     max-width: 1100px;
+    /* width: 100%; */
+    flex: 1;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -297,16 +299,30 @@ h2{
 }
 
 @media screen and (max-width: 1024px) {
-    
+
 }
 
-@media screen and (max-width: 768px) {
-    /* body{
-        border: 10px solid green
-    } */
+@media screen and (max-width: 767px) {
+    .header{
+        display: block;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .header ol{
+        display: block;
+    }
+    .header ol li{
+        height: 50px;        
+    }
+    .header a{
+        justify-content: center;
+    }
+    .header .logo{
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 480) {
+@media screen and (max-width: 480px) {
     
 }
 
