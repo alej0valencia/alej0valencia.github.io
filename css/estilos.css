@@ -184,14 +184,14 @@ h2{
 
 .event{
     /* border: 1px solid red; */
-    margin: 10px;
-    width: 480px;
+    margin: 1%;
+    width: 48%;
     border-radius: 10px;
     overflow: hidden;
     flex-shrink: 0;
     background-color: #f4fbff;
     /* background-color: red; */
-    margin: 0 auto 10px auto;
+    /* margin: 0 auto 10px auto; */
 
 }
 
@@ -356,15 +356,27 @@ h2{
     .project-description{
         font-size: .8em;
     }
+    .event{
+        width: auto;
+        flex-shrink: initial;
+    }
+    .event img{
+        width: 100%;
+    }
+    .event-detail{
+        margin: -2em .5em .5em;
+        padding: 1em;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .project-details{
-        width: auto; 
-        font-size: 12px;            
+        width: auto;                   
     }
 }
 
 @media screen and (max-width: 320px) {
-    
+    .project-details{
+        font-size: 12px;
+    }
 }
