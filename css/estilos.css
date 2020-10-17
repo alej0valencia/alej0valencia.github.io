@@ -13,11 +13,12 @@ valores*/
     justify-content: space-between;
     height: 70px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .container{
     /* border: 1px solid red; */
-    width: 1100px;
+    max-width: 1100px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -63,25 +64,17 @@ ol, ul{
 /*Ejemplo de selector descendente*/
 /*body header div nav ol li a*/
 
-body
-{
+body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6
-{
+h1, h2, h3, h4, h5, h6 {
     font-family:'Fjalla One', sans-serif;
     font-weight: normal;
 }
 
-h1
-{
+h1 {
     font-size: 40px;
     line-height: 1.5em;
     letter-spacing: -.2px;
@@ -114,6 +107,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-image{
@@ -141,6 +135,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project-details{
@@ -229,6 +224,7 @@ h2{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .form-email input{
@@ -289,6 +285,7 @@ h2{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .footer img{
@@ -300,13 +297,13 @@ h2{
 }
 
 @media screen and (max-width: 1024px) {
-
+    
 }
 
 @media screen and (max-width: 768px) {
-    body{
+    /* body{
         border: 10px solid green
-    }
+    } */
 }
 
 @media screen and (max-width: 480) {
