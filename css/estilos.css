@@ -307,6 +307,25 @@ h2{
     .container{
         padding: 0 1em;
     }
+    .hero{
+        height: auto;
+        position: relative;
+        overflow: hidden ;
+        padding: 2em;
+    }
+    .hero-image{
+        position:absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;        
+    }
+    h1{
+        font-size: 2em;
+        z-index: 2;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -372,6 +391,9 @@ h2{
 }
 
 @media screen and (max-width: 480px) {
+    h1{
+        font-size: 1em;
+    }
     .project-details{
         width: auto;                   
     }
@@ -398,4 +420,11 @@ h2{
     .project-details{
         font-size: 12px;        
     }    
+    h1{
+        font-size: 1.2em;
+        background-color: rgba(0,0,0,.5);        
+    }
+    .hero{
+        padding: 1em 2em;
+    }
 }
