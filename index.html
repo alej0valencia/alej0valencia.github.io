@@ -154,22 +154,31 @@
         <footer class="footer">
             <div class="container">
                 <div>
-                    <p>Curso de Desarrollo Wen Online 2020 <img src="images/platzi.png" width="100px" alt="PLatzi"></p>
+                    <p>Curso de Desarrollo Web Online 2020 <img src="images/platzi.png" width="100px" alt="PLatzi"></p>
                 </div>
                 <div>
                     <p>Designed with ❤ by <a href="https://twitter.com/thespianartist">@thespianartist</a></p>
                 </div>
             </div>           
         </footer>
-        <script>            
-
-            const menu =document.querySelector('.menu')
-            console.log(menu);
+        <script>   
+            const ipad = window.matchMedia('screen and (max-width:767px)')               
+            const menu =document.querySelector('.menu');
+            // console.log(menu);
             const burgerButton = document.querySelector('#burger-menu')
-            console.log(burgerButton);
+            // console.log(burgerButton);
 
-            burgerButton.addEventListener('click', hideShow)
 
+            ipad.addListener(validation)
+
+            function validation(event) {                
+                if (event.matches){
+                burgerButton.addEventListener('click', hideShow);
+                }else{
+                burgerButton.removeEventListener('click', hideShow);
+
+                }          
+            }
             function hideShow(){
                 if (menu.classList.contains('is-active')) {
                     menu.classList.remove('is-active');   

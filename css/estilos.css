@@ -398,8 +398,8 @@ h2{
 .social-link{
     font-size: 3em;
     color: white;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: inline-block;
     background-size: 50px 50px;
     margin: 0 10px;
@@ -419,7 +419,7 @@ h2{
 }
 
 .social-link.instagram{
-    /* background-image: url('../images/instagram.svg'); */
+    background-image: url('../images/instagram.svg');
 }
 
 .footer{
